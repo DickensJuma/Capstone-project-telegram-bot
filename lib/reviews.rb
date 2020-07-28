@@ -1,7 +1,7 @@
 require 'rss'
 require 'open-uri'
 
-class Feeds
+class Reviews
   def send_news
     feed = make_request
     item_index = rand(feed.items.size - 1)
@@ -9,7 +9,7 @@ class Feeds
   end
 
   def make_request
-    url = 'https://www.historytoday.com/feed/magazine.xml'
+    url = 'https://www.historytoday.com/feed/reviews.xml'
     URI.parse(url).open do |rss|
       feed = RSS::Parser.parse(rss)
       feed

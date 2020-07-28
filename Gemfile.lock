@@ -13,7 +13,13 @@ GEM
     dotenv (2.7.6)
     equalizer (0.0.11)
     excon (0.76.0)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
     ice_nine (0.11.2)
+    inflecto (0.0.2)
+    json (2.3.1)
+    multipart-post (2.1.1)
+    net-http-persistent (2.9.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -27,6 +33,10 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    telegram-bot-ruby (0.12.0)
+      faraday
+      inflecto
+      virtus
     telegram_bot (0.0.8)
       excon (>= 0.30.0)
       virtus (>= 1.0.0)
@@ -42,7 +52,10 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  json
+  net-http-persistent (~> 2.9, >= 2.9.4)
   rspec
+  telegram-bot-ruby
   telegram_bot
 
 BUNDLED WITH
