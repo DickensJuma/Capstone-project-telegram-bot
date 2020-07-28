@@ -11,6 +11,7 @@ AllCops:
     - 'spec/support/deferred_garbage_collection.rb'
     - 'spec/support/api_helpers.rb'
     - 'config/**/*'
+    - 'vendor/bundle/**/*''
 
   DisplayCopNames: true
 
