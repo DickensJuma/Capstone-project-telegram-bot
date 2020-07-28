@@ -23,16 +23,16 @@ class Bot
         reply.text = case value.downcase
                      when /start/i
                        "Hey, #{message.from.first_name}. Welcome to Historybot.We publish the world's leading scholars, on all periods, regions and themes of history. Try typing any of the commands:\n=>feeds\n=>reviews\n=>magazine"
-                    
+
                      when /feeds/i
                        news = Feeds.new
                        news.send_news
-                      when /reviews/i
-                        news = Reviews.new
-                        news.send_news
-                      when /magazine/i
-                        news = Magazine.new
-                        news.send_news
+                     when /reviews/i
+                       news = Reviews.new
+                       news.send_news
+                     when /magazine/i
+                       news = Magazine.new
+                       news.send_news
                      else
                        " I suggest you type commands:\n=>feeds\n=>reviews\n=>magazine"
                      end

@@ -1,7 +1,7 @@
 require 'rss'
 require 'open-uri'
 
-class Magazine 
+class Magazine
   def send_news
     feed = make_request
     item_index = rand(feed.items.size - 1)
