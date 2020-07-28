@@ -2,6 +2,7 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
+    
   Exclude:
     - 'db/**/*'
     - 'test/test_helper.rb'
@@ -11,7 +12,7 @@ AllCops:
     - 'spec/support/deferred_garbage_collection.rb'
     - 'spec/support/api_helpers.rb'
     - 'config/**/*'
-    - 'vendor/bundle/**/*''
+    - "vendor/bundle/**/*"
 
   DisplayCopNames: true
 
