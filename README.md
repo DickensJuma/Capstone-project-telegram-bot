@@ -1,4 +1,5 @@
 # Capstone-project-telegram-bot
+> This is a capstone/assessment project for the ruby module microverse curriculum 
 
 # What it does
 In this project, am building a History bot that provide the users with world's leading scholars, on all periods, regions and themes of history.
@@ -23,12 +24,30 @@ In this project, am building a History bot that provide the users with world's l
 ## How to interact with the bot on telegram
 - Run the program on the editor: ruby bin/main.rb
 - Search for the bot **@Historybot** on your telegram account and then type /start on the chat field to start the bot, type /feeds , /magazine and /reviews to get random information about cats and type /stop to end the bot as shown below:
+### Commands To Use
+
+```console
+start
+```
+
+```console
+feeds
+```
+
+```console
+magazine
+```
+
+ ```console
+reviews
+```
 
 ![screenshot](images/screenshot.png)
 
 ## Author
+![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
-👤 **Ritta Buyaki**
+👤 **DickensJuma**
 
 - Github: [@DickensJuma](https://github.com/DickensJuma)
 - Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
@@ -41,7 +60,7 @@ Feel free to check the [issues page](https://github.com/DickensJuma/Capstone-pro
 ## Attributions and Credit
 Special thanks to Microverse!
 
-History.org
+Historytoday.com
 
 ## Show your support
 
