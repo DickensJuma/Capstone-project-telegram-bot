@@ -1,0 +1,13 @@
+current directory: /home/dickens/Desktop/Capstone-Project-Telegram-bot/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+/home/dickens/.rvm/rubies/ruby-2.7.0/bin/ruby -I /home/dickens/.rvm/rubies/ruby-2.7.0/lib/ruby/site_ruby/2.7.0 -r ./siteconf20200728-54015-15edvt3.rb extconf.rb
+creating Makefile
+
+current directory: /home/dickens/Desktop/Capstone-Project-Telegram-bot/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/dickens/Desktop/Capstone-Project-Telegram-bot/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/dickens/Desktop/Capstone-Project-Telegram-bot/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" install
