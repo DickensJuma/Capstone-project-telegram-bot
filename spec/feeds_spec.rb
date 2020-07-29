@@ -12,10 +12,10 @@ describe Feeds do
 
   describe '#make_request' do
     context 'send the news' do
-      it 'return true if the request is made' do
+      it 'return true if the request is made and it RSS' do
         result = Feeds.new
         expect(result.make_request.class).to eql(RSS::Rss)
       end
     end
   end
-end
+endy
