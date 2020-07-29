@@ -1,11 +1,9 @@
 require 'rss'
 require 'open-uri'
+require_relative './magazine.rb'
+require_relative './reviews.rb'
 
-class Feeds
-  def initialize(url)
-    @url = url
-  end
-
+class Magazine
   def send_news
     feed = make_request
     item_index = rand(feed.items.size - 1)
@@ -13,7 +11,7 @@ class Feeds
   end
 
   def make_request
-    url = @url
+    url = @
     URI.parse(url).open do |rss|
       feed = RSS::Parser.parse(rss)
       feed
