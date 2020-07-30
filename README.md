@@ -21,6 +21,7 @@ In this project, am building a History bot that provide the users with world's l
 ```mkdir -p /usr/local/bin/ ```
 * Run **bundle install** -> to install the dependencies
 * Run bin/main.rb -> to run the program
+* Run **rspec** -> to test
 
 ## How to interact with the bot on telegram
 - Run the program on the editor: ruby bin/main.rb
