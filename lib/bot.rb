@@ -2,12 +2,13 @@
 
 require 'telegram_bot'
 require_relative './feeds.rb'
+require 'dotenv/load'
 
 class Bot
   attr_reader :bot, :get_updates
 
   def initialize
-    @bot = TelegramBot.new(token:'915315519:AAHgezsyumvz7c9l7b8-lZn0SVnosI2r8mg')
+    @bot = TelegramBot.new(token: ENV['TOKEN'])
     @get_updates = update
   end
 
