@@ -7,7 +7,7 @@ class Bot
   attr_reader :bot, :get_updates
 
   def initialize
-    @bot = TelegramBot.new(token: ENV['915315519:AAHgezsyumvz7c9l7b8-lZn0SVnosI2r8mg'])
+    @bot = TelegramBot.new(token:'915315519:AAHgezsyumvz7c9l7b8-lZn0SVnosI2r8mg')
     @get_updates = update
   end
 
