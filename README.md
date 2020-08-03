@@ -20,8 +20,12 @@ In this project, am building a History bot that provide the users with world's l
 ```chmod 755 bin/main.rb```
 
 ```mkdir -p /usr/local/bin/ ```
+
+```ln -s $PWD/bin/main.rb /usr/local/bin/ ``` 
+**sudo** if permission is required
+
 * Run **bundle install** -> to install the dependencies
-* Run **ruby bin/main.rb** -> to run the program
+* Run **bin/main.rb** -> to run the program
 * Run **rspec** -> to test
 * Run **rubocop** -> to lint
 
