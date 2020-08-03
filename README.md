@@ -12,6 +12,7 @@ In this project, am building a History bot that provide the users with world's l
 
 ## Installation
 - Ensure you have a Telegram account, Ruby and RSpec installed
+- Add Telegram **TOKEN** on dotev file in the root
 
 ## Getting Started
 * git clone https://github.com/DickensJuma/Capstone-project-telegram-bot.git 
