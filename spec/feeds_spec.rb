@@ -16,14 +16,13 @@ describe Feeds do
       result = Feeds.new(url)
       expect(result.send_news.is_a?(Hash)).to eql(false)
     end
-  end
-
-  context '#send_news' do
+  
     it 'return true if the request is made and its a string' do
       result = Feeds.new(url)
       expect(result.send_news.class).to be == String
     end
   end
+
 
   describe '#make_request' do
     context 'send the news' do

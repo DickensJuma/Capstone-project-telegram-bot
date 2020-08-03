@@ -12,24 +12,10 @@ In this project, am building a History bot that provide the users with world's l
 
 ## Installation
 - Ensure you have a Telegram account, Ruby and RSpec installed
-- Create a new Telegram bot using the Bot Father.[https://telegram.me/botfather]
-- To create a new Telegram bot, send command /newbot.
-- Give the Telegram bot a friendly name in this case **historybot**.
-- Give the Telegram bot a unique username.
-- Copy the Telegram bot's access token.
-- Enter the Telegram bot's access token to be TOKEN variable on bot.rb
-- Follow the **Get started** below
 
 
 ## Getting Started
 * git clone https://github.com/DickensJuma/Capstone-project-telegram-bot.git 
-
-```chmod 755 bin/main.rb```
-
-```mkdir -p /usr/local/bin/ ```
-
-```ln -s $PWD/bin/main.rb /usr/local/bin/ ``` 
-**sudo** if permission is required
 
 * Run **bundle install** -> to install the dependencies
 * Run **ruby bin/main.rb** -> to run the program
